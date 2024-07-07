@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* primary things */
+
+.btn-primary{
+    color: aliceblue;
+    background-color: #FD6E0A;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.dark-2{
+    color: #757575;
+}
+
+
+/* nav start */
+.bc-img{
+    background: url(../images/developer.png) , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left , right 235px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 200px;
+}
+
+.logo{
+    font-size: 45px;
+}
+
+.logo-color{
+    color: #FD6E0A;
+    font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+nav ul li a button{
+    padding: 10px 20px;
+    
+}
+
+
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+}
+
+/* banner start */
+#banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 147px;
+}
+
+#banner .banner-content{
+    width: 60%;
+    margin: 0 200px;
+}
+
+#banner .banner-img{
+    width: 25%;
+    margin-right: 35px;
+}
+
+#banner .banner-content h4{
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+}
+#banner .banner-content h1{
+   
+    font-weight: 600;
+    font-size: 85px;
+}
+#banner .banner-content p{
+   
+    font-weight: 600;
+    color: #757575;
+    margin: 30px 190px 30px 0;
+    text-align: justify;
+}
+
+#banner .banner-content button {
+    margin-right: 20px;
+}
+#banner .banner-content .contact {
+    background-color: transparent;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+}
+
+
+/* banner ends */
+
+/* about section start */
+#about{
+    margin: 160px 250px;
+}
+#about .about-content{
+    background-color: #FFF8F3;
+    padding: 160px;
+}
+#about .about-content .main-about{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    
+}
+#about .about-content .main-about h1{
+    
+    font-size: 30px;
+}
+#about .about-content .main-about .p{
+    
+    font-size: 14px;
+    margin: 25px 0 25px 0;
+    
+    padding: 0 20px;
+}
+#about .about-content .main-about .about-contact{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+
+/* about section ends */
+
+/* what i do section start */
+#what-i-do{
+    margin: 160px 230px 80px 230px;
+    text-align: center;
+    padding: 0 300px;
+    
+}
+#what-i-do h1{
+  margin-bottom: 30px;
+    
+}
+/* what i do section ends */
+
+/* <!-- card section start -->*/
+#card-section{
+    width: 1300px;
+    margin: 0 auto;
+
+}
+
+#card-section .cards{
+display: flex;
+justify-content: space-between;
+}
+#card-section .cards .card{
+width: 250px;
+height: 350px;
+padding: 30px;
+background-color: #fffcfc;
+border-radius: 5px;
+box-shadow: 2px 2px 7px rgb(209, 209, 209);
+}
+#card-section .cards .card .card-img{
+margin: 30px 0;
+}
+#card-section .cards .card .card-desc h3{
+margin: 25px 0;
+font-size: 21px;
+}
+#card-section .cards .card .card-desc p{
+margin: 15px 0;
+line-height: 40px;
+text-align: justify;
+}
+
+
+/* <!-- card section ends -->  */
+
+/* footer start */
+#footer{
+    width: 1300px;
+    margin: 100px auto;
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 100px;
+}
+
+.footer-left , .footer-right{
+    width: 50%;
+}
+.footer-left h1{
+    font-size: 35px;
+    margin-bottom: 25px;
+} 
+.footer-left p{
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-right: 80px;
+} 
+.footer-left .icon img{
+ margin-right: 15px;
+} 
+
+.footer-right {
+    padding: 0 40px;
+}
+.footer-right form{
+   display: flex;
+   flex-direction: column;
+   padding: 0 70px 0 0;
+   margin: 20px 0;
+}
+.footer-right form input{
+   padding: 16px 20px;
+   margin: 15px 0;
+   border: none;
+   font-size: 15px;
+}
+.footer-right form  .submit{
+   margin: 20px  200px 0;
+   
+}
+.footer-right form  #massage{
+  padding: 8px 20px 50px;
+  height: 50px;
+   
+}
+
+
+/* footer ends */
