@@ -1,0 +1,177 @@
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  .btn-primary {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+  .bc-img {
+    background: none;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0px;
+  }
+
+  nav li a {
+    font-size: 20px;
+  }
+
+  nav ul li a button {
+    width: 100px;
+    height: 30px;
+  }
+  /* banner start */
+  .bc-img {
+    background: none;
+  }
+
+  #banner {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  #banner .banner-content {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  #banner .banner-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  #banner .banner-img {
+    width: 100%;
+    margin-right: 0;
+    align-items: center;
+    text-align: center;
+    margin-top: -50px;
+  }
+  #banner .banner-content h1 {
+    font-weight: 600;
+    font-size: 35px;
+  }
+
+  #banner .banner-content h4 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  #banner .banner-content p {
+    margin: 20px;
+    text-align: center;
+  }
+  /* banner ends */
+
+  /* about start */
+  #about {
+    margin: 30px 0;
+  }
+  #about .about-content {
+    padding: 20px;
+  }
+  #about .about-content .main-about {
+    padding: 10px;
+  }
+  #about .about-content .main-about h1 {
+    font-size: 22px;
+  }
+  #about .about-content .main-about .p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  #about .about-content .main-about .about-contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    padding: 0 8px;
+  }
+
+  /* about ends */
+  /* what i do section start */
+#what-i-do{
+    margin: 30px 20px;
+    text-align: center;
+    padding: 0 20px; 
+
+}
+/* what i do section ends */
+/* card sec start */
+#card-section{
+    width: 100%;
+    margin: 0 auto;
+
+}
+#card-section .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    }
+/* card sec ends */
+
+/* footer start */
+
+#footer{
+    width: 100%;
+  flex-direction: column;
+    padding: 0;
+    gap: 50px;
+   margin-top: 40px;
+}
+.footer-left , .footer-right{
+    width: 100%;
+}
+.footer-left{
+    align-items: center;
+    text-align: center;
+   padding: 0;
+   margin-top: 40px;
+}
+.footer-left p{
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    padding: 0 30px;
+
+} 
+.footer-right {
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-right form{
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 0;
+    margin: 20px 0;
+ }
+ .footer-right form input{
+   width: 86%;
+ }
+
+ .footer-right form  .submit{
+    margin: 0px;
+    width: 96%;
+    
+ }
+
+/* footer ends */
+}

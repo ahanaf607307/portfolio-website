@@ -24,6 +24,8 @@
 }
 
 
+
+
 /* nav start */
 .bc-img{
     background: url(../images/developer.png) , url(../images/header_bg.png);
@@ -88,6 +90,9 @@ nav li a {
 #banner .banner-img{
     width: 25%;
     margin-right: 35px;
+}
+#banner .banner-img img{
+    border-radius: 40%;
 }
 
 #banner .banner-content h4{
